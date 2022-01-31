@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O3 -DNDEBUG CMakeFiles/example_icons.dir/src/example_icons.cpp.o -o example_icons  -Wl,-rpath,/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui libnanogui.so 

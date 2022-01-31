@@ -1,0 +1,17 @@
+/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles/gameconfig.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles/edit_cache.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles/rebuild_cache.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/nanogui.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/example1.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/example2.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/example3.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/example4.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/example_icons.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/edit_cache.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/rebuild_cache.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/CMakeFiles/edit_cache.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/CMakeFiles/rebuild_cache.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/edit_cache.dir
+/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/rebuild_cache.dir
