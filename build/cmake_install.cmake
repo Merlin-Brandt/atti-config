@@ -1,8 +1,8 @@
-# Install script for directory: /home/merlin/Projects/Programming/gfx/atti-config
+# Install script for directory: /home/merlin/workspace/apps/gfx/atti-config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/merlin/workspace/apps/gfx/atti-config/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/cmake_install.cmake")
+  include("/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/merlin/Projects/Programming/gfx/atti-config/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/merlin/workspace/apps/gfx/atti-config/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

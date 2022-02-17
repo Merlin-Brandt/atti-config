@@ -1,5 +1,5 @@
 lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: \
- /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/nanogui_resources.cpp \
+ /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/nanogui_resources.cpp \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \

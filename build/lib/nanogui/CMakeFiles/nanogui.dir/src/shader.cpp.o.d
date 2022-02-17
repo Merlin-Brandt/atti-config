@@ -1,9 +1,9 @@
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o: \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/shader.cpp \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/shader.cpp \
  /usr/include/stdc-predef.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/shader.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/object.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/shader.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/object.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -136,4 +136,4 @@ lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o: \
  /usr/include/c++/11.1.0/atomic \
  /usr/include/c++/11.1.0/bits/atomic_base.h \
  /usr/include/c++/11.1.0/bits/atomic_lockfree_defines.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/traits.h
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/traits.h

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_GLFW_BUILD_DLL -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/include -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src -I/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src
+C_INCLUDES = -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/include -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src -I/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src
 
 C_FLAGS = -O3 -DNDEBUG -fPIC -march=nehalem -Wall -fvisibility=hidden
 

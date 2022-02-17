@@ -1,8 +1,8 @@
-# Install script for directory: /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src
+# Install script for directory: /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/merlin/workspace/apps/gfx/atti-config/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

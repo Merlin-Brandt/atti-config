@@ -1,9 +1,9 @@
 lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/layout.cpp \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/layout.cpp \
  /usr/include/stdc-predef.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/layout.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/object.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/layout.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/object.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -136,8 +136,8 @@ lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: \
  /usr/include/c++/11.1.0/atomic \
  /usr/include/c++/11.1.0/bits/atomic_base.h \
  /usr/include/c++/11.1.0/bits/atomic_lockfree_defines.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/vector.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/traits.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/vector.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/traits.h \
  /usr/include/c++/11.1.0/cassert /usr/include/assert.h \
  /usr/include/c++/11.1.0/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -159,13 +159,13 @@ lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: \
  /usr/include/c++/11.1.0/tr1/poly_laguerre.tcc \
  /usr/include/c++/11.1.0/tr1/riemann_zeta.tcc /usr/include/string.h \
  /usr/include/strings.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/widget.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/theme.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/widget.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/theme.h \
  /usr/include/c++/11.1.0/algorithm \
  /usr/include/c++/11.1.0/pstl/glue_algorithm_defs.h \
  /usr/include/c++/11.1.0/pstl/execution_defs.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/window.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/label.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/window.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/label.h \
  /usr/include/c++/11.1.0/numeric \
  /usr/include/c++/11.1.0/bits/stl_numeric.h /usr/include/c++/11.1.0/bit \
  /usr/include/c++/11.1.0/pstl/glue_numeric_defs.h

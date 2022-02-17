@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DNANOGUI_SHARED -DNANOGUI_USE_OPENGL -DNVG_SHARED
 
-CXX_INCLUDES = -I/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/include
+CXX_INCLUDES = -I/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/include
 
 CXX_FLAGS =  -Wall -Wextra -O3 -DNDEBUG -fvisibility=hidden -march=nehalem
 

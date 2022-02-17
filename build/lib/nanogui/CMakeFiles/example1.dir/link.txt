@@ -1,1 +1,1 @@
-/usr/bin/c++  -Wall -Wextra -O3 -DNDEBUG CMakeFiles/example1.dir/src/example1.cpp.o -o example1  -Wl,-rpath,/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui libnanogui.so 
+/usr/bin/c++  -Wall -Wextra -O3 -DNDEBUG CMakeFiles/example1.dir/src/example1.cpp.o -o example1  -Wl,-rpath,/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui libnanogui.so 

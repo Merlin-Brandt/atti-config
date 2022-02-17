@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/gameconfig.dir/src/gameconfig.cpp.o -o gameconfig  -Wl,-rpath,/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui lib/nanogui/libnanogui.so 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/gameconfig.dir/src/gameconfig.cpp.o -o gameconfig  -Wl,-rpath,/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui lib/nanogui/libnanogui.so 

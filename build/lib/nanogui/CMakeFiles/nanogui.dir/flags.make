@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = -DNANOGUI_BUILD -DNANOGUI_SHARED -DNANOGUI_USE_OPENGL -DNVG_BUILD -DNVG_SHARED -DNVG_STB_IMAGE_IMPLEMENTATION -D_GLFW_BUILD_DLL
 
-C_INCLUDES = -I/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/include
+C_INCLUDES = -I/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/include
 
 C_FLAGS = -O3 -DNDEBUG -flto -fno-fat-lto-objects -fPIC -march=nehalem
 
 CXX_DEFINES = -DNANOGUI_BUILD -DNANOGUI_SHARED -DNANOGUI_USE_OPENGL -DNVG_BUILD -DNVG_SHARED -DNVG_STB_IMAGE_IMPLEMENTATION -D_GLFW_BUILD_DLL
 
-CXX_INCLUDES = -I/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src -I/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/include
+CXX_INCLUDES = -I/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src -I/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/include
 
 CXX_FLAGS =  -Wall -Wextra -O3 -DNDEBUG -flto -fno-fat-lto-objects -fPIC -fvisibility=hidden -march=nehalem
 

@@ -10,7 +10,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
     cmake_policy(SET CMP0025 NEW)
   endif ()
 
+set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/install")
+#set(CMAKE_INSTALL_LIBDIR ".")
+
 add_executable(gameconfig src/gameconfig.cpp)
+target_compile_features(gameconfig PRIVATE cxx_std_17)
 
 # Disable building extras we won't need (pure C++ project)
 set(NANOGUI_BUILD_EXAMPLE OFF CACHE BOOL " " FORCE)
@@ -32,3 +36,4 @@ include_directories(${NANOGUI_EXTRA_INCS})
 # Lastly, additional libraries may have been built for you.  In addition to linking
 # against NanoGUI, we need to link against those as well.
 target_link_libraries(gameconfig nanogui ${NANOGUI_EXTRA_LIBS})
+

@@ -1,8 +1,8 @@
 lib/nanogui/CMakeFiles/example_icons.dir/src/example_icons.cpp.o: \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/example_icons.cpp \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/example_icons.cpp \
  /usr/include/stdc-predef.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/nanogui.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/nanogui.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -132,9 +132,9 @@ lib/nanogui/CMakeFiles/example_icons.dir/src/example_icons.cpp.o: \
  /usr/include/c++/11.1.0/bits/exception_ptr.h \
  /usr/include/c++/11.1.0/bits/cxxabi_init_exception.h \
  /usr/include/c++/11.1.0/bits/nested_exception.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/metal.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/vector.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/traits.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/metal.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/vector.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/traits.h \
  /usr/include/c++/11.1.0/cassert /usr/include/assert.h \
  /usr/include/c++/11.1.0/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -156,30 +156,30 @@ lib/nanogui/CMakeFiles/example_icons.dir/src/example_icons.cpp.o: \
  /usr/include/c++/11.1.0/tr1/poly_laguerre.tcc \
  /usr/include/c++/11.1.0/tr1/riemann_zeta.tcc /usr/include/string.h \
  /usr/include/strings.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/widget.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/object.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/widget.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/object.h \
  /usr/include/c++/11.1.0/atomic \
  /usr/include/c++/11.1.0/bits/atomic_base.h \
  /usr/include/c++/11.1.0/bits/atomic_lockfree_defines.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/theme.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/theme.h \
  /usr/include/c++/11.1.0/algorithm \
  /usr/include/c++/11.1.0/pstl/glue_algorithm_defs.h \
  /usr/include/c++/11.1.0/pstl/execution_defs.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/screen.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/texture.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/window.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/layout.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/label.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/checkbox.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/button.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/toolbutton.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/popup.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/popupbutton.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/combobox.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/progressbar.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/icons.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/messagedialog.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/textbox.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/screen.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/texture.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/window.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/layout.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/label.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/checkbox.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/button.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/toolbutton.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/popup.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/popupbutton.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/combobox.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/progressbar.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/icons.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/messagedialog.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/textbox.h \
  /usr/include/c++/11.1.0/sstream /usr/include/c++/11.1.0/istream \
  /usr/include/c++/11.1.0/ios /usr/include/c++/11.1.0/bits/ios_base.h \
  /usr/include/c++/11.1.0/bits/locale_classes.h \
@@ -200,16 +200,16 @@ lib/nanogui/CMakeFiles/example_icons.dir/src/example_icons.cpp.o: \
  /usr/include/c++/11.1.0/ostream /usr/include/c++/11.1.0/bits/ostream.tcc \
  /usr/include/c++/11.1.0/bits/istream.tcc \
  /usr/include/c++/11.1.0/bits/sstream.tcc \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/textarea.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/slider.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/imagepanel.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/vscrollpanel.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/colorwheel.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/graph.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/formhelper.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/colorpicker.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/tabwidget.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/shader.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/renderpass.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/canvas.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/imageview.h
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/textarea.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/slider.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/imagepanel.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/vscrollpanel.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/colorwheel.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/graph.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/formhelper.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/colorpicker.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/tabwidget.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/shader.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/renderpass.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/canvas.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/imageview.h
