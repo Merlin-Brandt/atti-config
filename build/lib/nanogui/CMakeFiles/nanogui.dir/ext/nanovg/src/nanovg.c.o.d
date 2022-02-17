@@ -1,5 +1,5 @@
 lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.c \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -38,11 +38,11 @@ lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: \
  /usr/include/bits/mathcalls.h /usr/include/memory.h \
  /usr/include/string.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h /usr/include/strings.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/fontstash.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/stb_truetype.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/fontstash.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/stb_truetype.h \
  /usr/include/assert.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/stb_image.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/stb_image.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \

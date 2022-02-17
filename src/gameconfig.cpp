@@ -1,3 +1,6 @@
+#include <filesystem>
+#include <cstdlib>
+
 #include <GLFW/glfw3.h>
 #include <nanogui/screen.h>
 #include <nanogui/window.h>
@@ -23,45 +26,57 @@
 #include <nanogui/texture.h>
 #include <nanogui/shader.h>
 #include <nanogui/renderpass.h>
-#include <iostream>
-#include <memory>
-#include <string>
-#include <fstream>
 
+#include "utils.hpp"
+#include "constants.hpp"
+
+#include <cstdlib>
+#include <ctime>  
+
+using namespace std;
 using namespace nanogui;
+template <typename T>
+using ngref = nanogui::ref<T>;
 
-TextBox *minuti(Widget *window, int s)
+TextBox *entry(Widget *window, string const &label, string const &def)
 {
-    TextBox *textbox = new TextBox(window, std::to_string(s));
+    new Label(window, label);
+    TextBox *textbox = new TextBox(window, def);
     textbox->set_spinnable(true);
     textbox->set_editable(true);
-    textbox->set_default_value(std::to_string(s));
-    textbox->set_units("Minuti");
+    textbox->set_value(def);
     return textbox;
 }
 
-TextBox *unit_entry(Widget *window, char const *label, int s, char const *unit)
+template <typename T>
+IntBox<T> *number_entry(Widget *window, string const &label, T const &def)
 {
     new Label(window, label);
-    TextBox *textbox = new TextBox(window, std::to_string(s));
+    IntBox<T> *textbox = new IntBox<T>(window, def);
     textbox->set_spinnable(true);
     textbox->set_editable(true);
-    textbox->set_default_value(std::to_string(s));
+    textbox->set_value(def);
+    return textbox;
+}
+
+IntBox<int> *unit_entry(Widget *window, string const &label, int s, char const *unit)
+{
+    IntBox<int> *textbox = number_entry<int>(window, label, s);
     textbox->set_units(unit);
     return textbox;
 }
 
-TextBox *secondi(Widget *parent, char const *label, int s)
+IntBox<int> *secondi(Widget *parent, string const &label, int s)
 {
     return unit_entry(parent, label, s, "secondi");
 }
 
-TextBox *minuti(Widget *parent, char const *label, int s)
+IntBox<int> *minuti(Widget *parent, string const &label, int s)
 {
     return unit_entry(parent, label, s, "minuti");
 }
 
-Widget *next_tab(TabWidget *tabs, char const *title)
+Widget *next_tab(TabWidget *tabs, string const &title)
 {
     Widget *tab = new Widget(tabs);
     tab->set_layout(new GroupLayout());
@@ -69,11 +84,28 @@ Widget *next_tab(TabWidget *tabs, char const *title)
     return tab;
 }
 
+
 class ExampleApplication : public Screen {
 public:
     ExampleApplication() : Screen(Vector2i(1024, 768), "NanoGUI Test") {
         inc_ref();
+        
+        srand(time(NULL));
+
+        // stores the line numbers in new_diodati_titles.txt of the titles that shall
+        // not be chosen in the following game, as these titles were already played.
+        set<int> used_titles;
+        {
+            std::ifstream config_in("res/config.txt");
+            int used_titles_num = get_line_int(config_in);
+            for (int i = 0; i < used_titles_num; ++i)
+            {
+                used_titles.insert(get_line_int(config_in));
+            }
+        }
+
         Window *window;
+        Button *b;
         
         window = new Window(this, "Configuration");
         window->set_position(Vector2i(15, 15));
@@ -97,62 +129,173 @@ public:
 
         tab = next_tab(tabs, "Tempi");
 
-        TextBox *tempo_iniziale;
-        new Label(tab, "Tempo iniziale");
-        tempo_iniziale = minuti(tab, 15);
+        IntBox<int> *tempo_iniziale = minuti(tab, "Tempo iniziale", 15);
 
-        TextBox *tempo_manche[3];
+        IntBox<int> *tempo_manche[3];
         new Label(tab, "Tempi aggiunti ai giocatori dopo avere risolto ...");
         for (int i = 0; i < 3; i++)
         {
-            new Label(tab, "... Manche " + std::to_string(i));
-            tempo_manche[i] = minuti(tab, 15);
+            tempo_manche[i] = minuti(tab, "... Manche " + std::to_string(i), 15);
         }
 
         struct {
-            TextBox *aggiunto, *sottrato;
+            IntBox<int> *aggiunto, *sottrato;
         } tempo_sfida[2];
         new Label(tab, "Tempi aggiunti ai giocatori dopo sfida");
         for (int i = 0; i < 2; ++i)
         {
-            new Label(tab, "Manche " + std::to_string(i));
-            tempo_sfida[i].aggiunto = minuti(tab, 1);
+            tempo_sfida[i].aggiunto = minuti(tab, "Manche " + std::to_string(i), 1);
         }
         new Label(tab, "Tempi sottrati dei giocatori dopo sfida");
         for (int i = 0; i < 2; ++i)
         {
-            new Label(tab, "Manche " + std::to_string(i));
-            tempo_sfida[i].sottrato = minuti(tab, i == 0 ? 0 : 1);
+            tempo_sfida[i].sottrato = minuti(tab, "Manche " + std::to_string(i), i == 0 ? 0 : 1);
         }
 
         tab = next_tab(tabs, "Tempi");
 
-        new Label(tab, "Tempo sottrato dopo tentazione");
-        TextBox *tempo_tentazione = minuti(tab, 2);
-
-        new Label(tab, "Tempo sottrato dopo errore");
-        TextBox *tempo_errore = minuti(tab, 5);
-
-        TextBox *tempo_errore_risolvi = minuti(tab, "Tempo sottrato dopo errore dopo risolvi", 1);
-        TextBox *tempo_slide = secondi(tab, "Tempo slide", 4);
-        TextBox *tempo_suspance = secondi(tab, "Tempo suspance", 7);
-        TextBox *tempo_alert = minuti(tab, "Tempo alert", 1);
-        TextBox *tempo_azione = secondi(tab, "Tempo azione", 5);
-        TextBox *tempo_pausa_azione = secondi(tab, "Tempo pausa azione", 5);
+        IntBox<int> *tempo_tentazione = secondi(tab, "Tempo sottrato dopo tentazione", 2);
+        IntBox<int> *tempo_giusto = secondi(tab, "Tempo aggiunto dopo avuto indovinato giustamente", 5);
+        IntBox<int> *tempo_errore = secondi(tab, "Tempo sottrato dopo errore", 5);
+        IntBox<int> *tempo_errore_risolvi = secondi(tab, "Tempo sottrato dopo errore dopo risolvi", 1);
+        IntBox<int> *tempo_slide = secondi(tab, "Tempo slide", 4);
+        IntBox<int> *tempo_suspance = secondi(tab, "Tempo suspance", 7);
+        IntBox<int> *tempo_alert = minuti(tab, "Tempo alert", 1);
+        IntBox<int> *tempo_azione = secondi(tab, "Tempo azione", 5);
+        IntBox<int> *tempo_pausa_azione = secondi(tab, "Tempo pausa azione", 5);
 
         tab = next_tab(tabs, "Manche 1");
 
+        IntBox<int> *title_length_min = number_entry(tab, "Lunghezza minimale della frase", 30);
+        IntBox<int> *title_length_max = number_entry(tab, "Lunghezza massimale della frase", 98);
+        //IntBox<int> *title_offset = number_entry(tab, "Posizione della frase nella tabella", 0);
+        
+        Widget *board = new Widget(tab);
+        board->set_layout(new GridLayout(Orientation::Vertical, BOARD_H));
+        TextBox *board_chars[BOARD_W][BOARD_H];
+        for (int i = 0; i < BOARD_W; ++i)
+        for (int j = 0; j < BOARD_H; ++j)
+        {
+            board_chars[i][j] = new TextBox(board, " ");
+            board_chars[i][j]->set_editable(true);
+            board_chars[i][j]->set_font_size(14);
+        }
+
+        int const MARGIN = 1;
+        int const BOARD_FILL_W = BOARD_W - MARGIN*2;
+        int const BOARD_FILL_H = BOARD_H - MARGIN*2;
+
+        b = new Button(tab, "Caricare la frase");
+        b->set_callback([=] {
+            for (int i = 0; i < BOARD_W; ++i)
+            for (int j = 0; j < BOARD_H; ++j)
+                board_chars[i][j]->set_value(" ");
+
+            vector<string> titles = get_lines("res/new_diodati_titles.txt");
+            set<int> all_titles = range_set(0, titles.size());
+            set<int> available_titles = sstd::set_difference(all_titles, used_titles);
+            set<int> invalid_titles;
+            for (int i : available_titles)
+            {
+                if (titles[i].length() < title_length_min->value() || titles[i].length() > title_length_max->value())
+                    invalid_titles.insert(i);
+            }
+            available_titles = sstd::set_difference(available_titles, invalid_titles);
+            
+            string title = titles[copy_random(available_titles)];
+            title.push_back(' ');
+            int i = MARGIN;
+            int j = MARGIN;
+            std::cout << "begin\n";
+            while (title.length())
+            {
+                int wordlen = title.find(" ");
+                if (wordlen != wstring::npos)
+                    if (i + wordlen > BOARD_W-MARGIN) i = MARGIN, ++j;
+                if (wordlen == 0 && i == 0) title = title.substr(1); // no need to insert spaces at beginning of a row
+                board_chars[i][j]->set_value(title.substr(0, 1));
+                ++i;
+                if (i >= BOARD_W-MARGIN) i = MARGIN, ++j;
+                title = title.length() ? title.substr(1) : title;
+            }
+        });
+
+
         tab = next_tab(tabs, "Run game");
 
-        Button *b = new Button(tab, "Save configuration and run game");
-        b->set_callback([giocatori] { 
-            std::ofstream out("config.bin", std::ios::binary);
+        b = new Button(tab, "Save configuration and run game");
+        b->set_callback([=] { 
+
+            // check if entered times can be displayed with resources
+            // ensure(resource available for tempo_giusto)
+            // ensure(resource available for tempo_errore)
+            for (IntBox<int> *box : {
+                tempo_giusto,
+                tempo_errore,
+            }) {
+                int val = box->value();
+                string sign = val >= 0 ? "+" : "-";
+                string absval = to_string(abs(val));
+                char unit = box->units()[0];
+                if (!std::filesystem::exists("res/img/time/" + sign + absval + unit + ".png"))
+                {
+                    string description;
+                    if (box == tempo_giusto)
+                        description = "Tempo aggiunto dopo avuto indovinato giustamente";
+                    else if (box == tempo_errore)
+                        description = "Tempo sottrato dopo errore";
+                    else
+                        description = "value";
+                    new MessageDialog(this, MessageDialog::Type::Information, "Error", string() 
+                        + "No graphics available for time setting: " + description + " = " + to_string(val));
+                    return;
+                }
+            }
+
+            std::ofstream out("res/config.txt");
+            out << used_titles.size() << std::endl;
+            for (int i : used_titles)
+            {
+                out << i << std::endl;
+            }
             for (int i = 0; i < 3; ++i)
             {
                 out << giocatori[i].nome->value() << std::endl << giocatori[i].notizia->value() << std::endl;
-            } 
+            }
+            for (IntBox<int> *box : {
+                tempo_iniziale, 
+                tempo_manche[0],
+                tempo_manche[1],
+                tempo_manche[2],
+                tempo_sfida[0].aggiunto, 
+                tempo_sfida[0].sottrato, 
+                tempo_sfida[1].aggiunto, 
+                tempo_sfida[1].sottrato,
+                tempo_tentazione, 
+                tempo_giusto,
+                tempo_errore,
+                tempo_errore_risolvi, 
+                tempo_slide, 
+                tempo_suspance, 
+                tempo_alert, 
+                tempo_azione, 
+                tempo_pausa_azione
+            }) {
+                int factor = 1;
+                if (box->units() == "secondi")
+                    factor = 1;
+                else if (box->units() == "minuti")
+                    factor = 60;
+                else
+                    std::cout << "Error invalid time unit in nanogui widget" << std::endl;
+                out << box->value() * factor << std::endl;
+            }
+            for (int j = 0; j < BOARD_H; ++j)
+            for (int i = 0; i < BOARD_W; ++i)
+            {
+                out << board_chars[i][j]->value()[0] << std::endl;
+            }
         });
-
 
         tab = next_tab(tabs, "");
         tab->set_visible(false);
@@ -280,11 +423,11 @@ public:
     }
 private:
     ProgressBar *m_progress;
-    ref<Shader> m_shader;
-    ref<RenderPass> m_render_pass;
+    ngref<Shader> m_shader;
+    ngref<RenderPass> m_render_pass;
 
     using ImageHolder = std::unique_ptr<uint8_t[], void(*)(void*)>;
-    std::vector<std::pair<ref<Texture>, ImageHolder>> m_images;
+    std::vector<std::pair<ngref<Texture>, ImageHolder>> m_images;
     int m_current_image;
 };
 
@@ -293,7 +436,7 @@ int main(int /* argc */, char ** /* argv */) {
         nanogui::init();
 
         /* scoped variables */ {
-            ref<ExampleApplication> app = new ExampleApplication();
+            ngref<ExampleApplication> app = new ExampleApplication();
             app->dec_ref();
             app->draw_all();
             app->set_visible(true);

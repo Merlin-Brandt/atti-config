@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/merlin/Projects/Programming/gfx/atti-config
+CMAKE_SOURCE_DIR = /home/merlin/workspace/apps/gfx/atti-config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/merlin/Projects/Programming/gfx/atti-config/build
+CMAKE_BINARY_DIR = /home/merlin/workspace/apps/gfx/atti-config/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -141,14 +141,14 @@ lib/nanogui/ext/glfw/src/clean: lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/cle
 CMakeFiles/gameconfig.dir/all: lib/nanogui/CMakeFiles/nanogui.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gameconfig.dir/build.make CMakeFiles/gameconfig.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gameconfig.dir/build.make CMakeFiles/gameconfig.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=11,12 "Built target gameconfig"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=11,12 "Built target gameconfig"
 .PHONY : CMakeFiles/gameconfig.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gameconfig.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gameconfig.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : CMakeFiles/gameconfig.dir/rule
 
 # Convenience name for target.
@@ -167,14 +167,14 @@ CMakeFiles/gameconfig.dir/clean:
 lib/nanogui/CMakeFiles/nanogui.dir/all: lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/nanogui.dir/build.make lib/nanogui/CMakeFiles/nanogui.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/nanogui.dir/build.make lib/nanogui/CMakeFiles/nanogui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target nanogui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target nanogui"
 .PHONY : lib/nanogui/CMakeFiles/nanogui.dir/all
 
 # Build rule for subdir invocation for target.
 lib/nanogui/CMakeFiles/nanogui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/nanogui/CMakeFiles/nanogui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : lib/nanogui/CMakeFiles/nanogui.dir/rule
 
 # Convenience name for target.
@@ -193,14 +193,14 @@ lib/nanogui/CMakeFiles/nanogui.dir/clean:
 lib/nanogui/CMakeFiles/example1.dir/all: lib/nanogui/CMakeFiles/nanogui.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example1.dir/build.make lib/nanogui/CMakeFiles/example1.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example1.dir/build.make lib/nanogui/CMakeFiles/example1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=1,2 "Built target example1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=1,2 "Built target example1"
 .PHONY : lib/nanogui/CMakeFiles/example1.dir/all
 
 # Build rule for subdir invocation for target.
 lib/nanogui/CMakeFiles/example1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/nanogui/CMakeFiles/example1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : lib/nanogui/CMakeFiles/example1.dir/rule
 
 # Convenience name for target.
@@ -219,14 +219,14 @@ lib/nanogui/CMakeFiles/example1.dir/clean:
 lib/nanogui/CMakeFiles/example2.dir/all: lib/nanogui/CMakeFiles/nanogui.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example2.dir/build.make lib/nanogui/CMakeFiles/example2.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example2.dir/build.make lib/nanogui/CMakeFiles/example2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=3,4 "Built target example2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=3,4 "Built target example2"
 .PHONY : lib/nanogui/CMakeFiles/example2.dir/all
 
 # Build rule for subdir invocation for target.
 lib/nanogui/CMakeFiles/example2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/nanogui/CMakeFiles/example2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : lib/nanogui/CMakeFiles/example2.dir/rule
 
 # Convenience name for target.
@@ -245,14 +245,14 @@ lib/nanogui/CMakeFiles/example2.dir/clean:
 lib/nanogui/CMakeFiles/example3.dir/all: lib/nanogui/CMakeFiles/nanogui.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example3.dir/build.make lib/nanogui/CMakeFiles/example3.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example3.dir/build.make lib/nanogui/CMakeFiles/example3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=5,6 "Built target example3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=5,6 "Built target example3"
 .PHONY : lib/nanogui/CMakeFiles/example3.dir/all
 
 # Build rule for subdir invocation for target.
 lib/nanogui/CMakeFiles/example3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/nanogui/CMakeFiles/example3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : lib/nanogui/CMakeFiles/example3.dir/rule
 
 # Convenience name for target.
@@ -271,14 +271,14 @@ lib/nanogui/CMakeFiles/example3.dir/clean:
 lib/nanogui/CMakeFiles/example4.dir/all: lib/nanogui/CMakeFiles/nanogui.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example4.dir/build.make lib/nanogui/CMakeFiles/example4.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example4.dir/build.make lib/nanogui/CMakeFiles/example4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=7,8 "Built target example4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=7,8 "Built target example4"
 .PHONY : lib/nanogui/CMakeFiles/example4.dir/all
 
 # Build rule for subdir invocation for target.
 lib/nanogui/CMakeFiles/example4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/nanogui/CMakeFiles/example4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : lib/nanogui/CMakeFiles/example4.dir/rule
 
 # Convenience name for target.
@@ -297,14 +297,14 @@ lib/nanogui/CMakeFiles/example4.dir/clean:
 lib/nanogui/CMakeFiles/example_icons.dir/all: lib/nanogui/CMakeFiles/nanogui.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example_icons.dir/build.make lib/nanogui/CMakeFiles/example_icons.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/CMakeFiles/example_icons.dir/build.make lib/nanogui/CMakeFiles/example_icons.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=9,10 "Built target example_icons"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=9,10 "Built target example_icons"
 .PHONY : lib/nanogui/CMakeFiles/example_icons.dir/all
 
 # Build rule for subdir invocation for target.
 lib/nanogui/CMakeFiles/example_icons.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/nanogui/CMakeFiles/example_icons.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : lib/nanogui/CMakeFiles/example_icons.dir/rule
 
 # Convenience name for target.
@@ -323,14 +323,14 @@ lib/nanogui/CMakeFiles/example_icons.dir/clean:
 lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/build.make lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/build.make lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target glfw_objects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target glfw_objects"
 .PHONY : lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/all
 
 # Build rule for subdir invocation for target.
 lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/rule
 
 # Convenience name for target.
@@ -349,14 +349,14 @@ lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/clean:
 lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/all: lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build.make lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build.make lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=13 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=13 "Built target glfw"
 .PHONY : lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles 0
 .PHONY : lib/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.

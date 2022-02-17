@@ -1,5 +1,5 @@
 lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o: \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/osmesa_context.c \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/osmesa_context.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -27,13 +27,13 @@ lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o: \
  /usr/include/string.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h /usr/include/strings.h \
  /usr/include/assert.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/internal.h \
- /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/glfw_config.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/../include/GLFW/glfw3.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/internal.h \
+ /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/glfw_config.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/../include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/x11_platform.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/x11_platform.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
@@ -69,17 +69,17 @@ lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o: \
  /usr/include/X11/extensions/xfixeswire.h \
  /usr/include/X11/extensions/shape.h \
  /usr/include/X11/extensions/shapeconst.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/posix_thread.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/posix_thread.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/posix_time.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/xkb_unicode.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/glx_context.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/linux_joystick.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/posix_time.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/xkb_unicode.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/glx_context.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/linux_joystick.h \
  /usr/include/linux/input.h /usr/include/sys/time.h \
  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
  /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
@@ -93,5 +93,5 @@ lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o: \
  /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
  /usr/include/linux/input-event-codes.h /usr/include/linux/limits.h \
  /usr/include/regex.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/egl_context.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/src/osmesa_context.h
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/egl_context.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/src/osmesa_context.h

@@ -1,9 +1,9 @@
 lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/opengl.cpp \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/opengl.cpp \
  /usr/include/stdc-predef.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/opengl.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/vector.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/opengl.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/vector.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -133,7 +133,7 @@ lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: \
  /usr/include/c++/11.1.0/bits/exception_ptr.h \
  /usr/include/c++/11.1.0/bits/cxxabi_init_exception.h \
  /usr/include/c++/11.1.0/bits/nested_exception.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/traits.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/traits.h \
  /usr/include/c++/11.1.0/cassert /usr/include/assert.h \
  /usr/include/c++/11.1.0/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -155,7 +155,7 @@ lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: \
  /usr/include/c++/11.1.0/tr1/poly_laguerre.tcc \
  /usr/include/c++/11.1.0/tr1/riemann_zeta.tcc /usr/include/string.h \
  /usr/include/strings.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/glfw/include/GLFW/glfw3.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/glfw/include/GLFW/glfw3.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.h
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.h

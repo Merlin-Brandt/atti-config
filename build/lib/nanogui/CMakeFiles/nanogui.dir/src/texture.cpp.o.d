@@ -1,9 +1,9 @@
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/texture.cpp \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/texture.cpp \
  /usr/include/stdc-predef.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/texture.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/object.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/texture.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/object.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -136,8 +136,8 @@ lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: \
  /usr/include/c++/11.1.0/atomic \
  /usr/include/c++/11.1.0/bits/atomic_base.h \
  /usr/include/c++/11.1.0/bits/atomic_lockfree_defines.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/vector.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/include/nanogui/traits.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/vector.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/include/nanogui/traits.h \
  /usr/include/c++/11.1.0/cassert /usr/include/assert.h \
  /usr/include/c++/11.1.0/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -159,7 +159,7 @@ lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: \
  /usr/include/c++/11.1.0/tr1/poly_laguerre.tcc \
  /usr/include/c++/11.1.0/tr1/riemann_zeta.tcc /usr/include/string.h \
  /usr/include/strings.h \
- /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/stb_image.h \
+ /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/stb_image.h \
  /usr/include/c++/11.1.0/stdlib.h /usr/include/c++/11.1.0/memory \
  /usr/include/c++/11.1.0/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11.1.0/bits/align.h /usr/include/c++/11.1.0/bit \

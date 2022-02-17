@@ -1,0 +1,2 @@
+/home/merlin/workspace/apps/gfx/atti-config/install/./gameconfig
+/home/merlin/workspace/apps/gfx/atti-config/install/./libnanogui.so

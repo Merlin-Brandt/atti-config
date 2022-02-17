@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/merlin/Projects/Programming/gfx/atti-config
+CMAKE_SOURCE_DIR = /home/merlin/workspace/apps/gfx/atti-config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/merlin/Projects/Programming/gfx/atti-config/build
+CMAKE_BINARY_DIR = /home/merlin/workspace/apps/gfx/atti-config/build
 
 # Include any dependencies generated for this target.
 include lib/nanogui/CMakeFiles/nanogui.dir/depend.make
@@ -81,8 +81,8 @@ lib/nanogui/nanogui_resources.cpp: ../lib/nanogui/resources/Roboto-Bold.ttf
 lib/nanogui/nanogui_resources.cpp: ../lib/nanogui/resources/Roboto-Regular.ttf
 lib/nanogui/nanogui_resources.cpp: ../lib/nanogui/resources/imageview_fragment.gl
 lib/nanogui/nanogui_resources.cpp: ../lib/nanogui/resources/imageview_vertex.gl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running bin2c"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/resources/FontAwesome-Solid.ttf,/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/resources/Inconsolata-Regular.ttf,/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/resources/Roboto-Bold.ttf,/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/resources/Roboto-Regular.ttf,/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/resources/imageview_fragment.gl,/home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/resources/imageview_vertex.gl -P /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/resources/bin2c.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running bin2c"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/resources/FontAwesome-Solid.ttf,/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/resources/Inconsolata-Regular.ttf,/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/resources/Roboto-Bold.ttf,/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/resources/Roboto-Regular.ttf,/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/resources/imageview_fragment.gl,/home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/resources/imageview_vertex.gl -P /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/resources/bin2c.cmake
 
 lib/nanogui/nanogui_resources.h: lib/nanogui/nanogui_resources.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/nanogui/nanogui_resources.h
@@ -90,478 +90,478 @@ lib/nanogui/nanogui_resources.h: lib/nanogui/nanogui_resources.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: ../lib/nanogui/ext/nanovg/src/nanovg.c
 lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o -MF CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o.d -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o -MF CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o.d -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.c
 
 lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.c > CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.c > CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.c -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/ext/nanovg/src/nanovg.c -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o: ../lib/nanogui/src/texture_gl.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o -MF CMakeFiles/nanogui.dir/src/texture_gl.cpp.o.d -o CMakeFiles/nanogui.dir/src/texture_gl.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/texture_gl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o -MF CMakeFiles/nanogui.dir/src/texture_gl.cpp.o.d -o CMakeFiles/nanogui.dir/src/texture_gl.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/texture_gl.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/texture_gl.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/texture_gl.cpp > CMakeFiles/nanogui.dir/src/texture_gl.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/texture_gl.cpp > CMakeFiles/nanogui.dir/src/texture_gl.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/texture_gl.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/texture_gl.cpp -o CMakeFiles/nanogui.dir/src/texture_gl.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/texture_gl.cpp -o CMakeFiles/nanogui.dir/src/texture_gl.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o: ../lib/nanogui/src/shader_gl.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o -MF CMakeFiles/nanogui.dir/src/shader_gl.cpp.o.d -o CMakeFiles/nanogui.dir/src/shader_gl.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/shader_gl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o -MF CMakeFiles/nanogui.dir/src/shader_gl.cpp.o.d -o CMakeFiles/nanogui.dir/src/shader_gl.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/shader_gl.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/shader_gl.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/shader_gl.cpp > CMakeFiles/nanogui.dir/src/shader_gl.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/shader_gl.cpp > CMakeFiles/nanogui.dir/src/shader_gl.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/shader_gl.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/shader_gl.cpp -o CMakeFiles/nanogui.dir/src/shader_gl.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/shader_gl.cpp -o CMakeFiles/nanogui.dir/src/shader_gl.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o: ../lib/nanogui/src/renderpass_gl.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o -MF CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o.d -o CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/renderpass_gl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o -MF CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o.d -o CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/renderpass_gl.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/renderpass_gl.cpp > CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/renderpass_gl.cpp > CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/renderpass_gl.cpp -o CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/renderpass_gl.cpp -o CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: ../lib/nanogui/src/opengl.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o -MF CMakeFiles/nanogui.dir/src/opengl.cpp.o.d -o CMakeFiles/nanogui.dir/src/opengl.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/opengl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o -MF CMakeFiles/nanogui.dir/src/opengl.cpp.o.d -o CMakeFiles/nanogui.dir/src/opengl.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/opengl.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/opengl.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/opengl.cpp > CMakeFiles/nanogui.dir/src/opengl.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/opengl.cpp > CMakeFiles/nanogui.dir/src/opengl.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/opengl.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/opengl.cpp -o CMakeFiles/nanogui.dir/src/opengl.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/opengl.cpp -o CMakeFiles/nanogui.dir/src/opengl.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: lib/nanogui/nanogui_resources.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o -MF CMakeFiles/nanogui.dir/nanogui_resources.cpp.o.d -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/nanogui_resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o -MF CMakeFiles/nanogui.dir/nanogui_resources.cpp.o.d -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/nanogui_resources.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/nanogui_resources.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/nanogui_resources.cpp > CMakeFiles/nanogui.dir/nanogui_resources.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/nanogui_resources.cpp > CMakeFiles/nanogui.dir/nanogui_resources.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/nanogui_resources.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/nanogui_resources.cpp -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/nanogui_resources.cpp -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o: ../lib/nanogui/src/common.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o -MF CMakeFiles/nanogui.dir/src/common.cpp.o.d -o CMakeFiles/nanogui.dir/src/common.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o -MF CMakeFiles/nanogui.dir/src/common.cpp.o.d -o CMakeFiles/nanogui.dir/src/common.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/common.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/common.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/common.cpp > CMakeFiles/nanogui.dir/src/common.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/common.cpp > CMakeFiles/nanogui.dir/src/common.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/common.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/common.cpp -o CMakeFiles/nanogui.dir/src/common.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/common.cpp -o CMakeFiles/nanogui.dir/src/common.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o: ../lib/nanogui/src/widget.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o -MF CMakeFiles/nanogui.dir/src/widget.cpp.o.d -o CMakeFiles/nanogui.dir/src/widget.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o -MF CMakeFiles/nanogui.dir/src/widget.cpp.o.d -o CMakeFiles/nanogui.dir/src/widget.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/widget.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/widget.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/widget.cpp > CMakeFiles/nanogui.dir/src/widget.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/widget.cpp > CMakeFiles/nanogui.dir/src/widget.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/widget.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/widget.cpp -o CMakeFiles/nanogui.dir/src/widget.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/widget.cpp -o CMakeFiles/nanogui.dir/src/widget.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: ../lib/nanogui/src/theme.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o -MF CMakeFiles/nanogui.dir/src/theme.cpp.o.d -o CMakeFiles/nanogui.dir/src/theme.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/theme.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o -MF CMakeFiles/nanogui.dir/src/theme.cpp.o.d -o CMakeFiles/nanogui.dir/src/theme.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/theme.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/theme.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/theme.cpp > CMakeFiles/nanogui.dir/src/theme.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/theme.cpp > CMakeFiles/nanogui.dir/src/theme.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/theme.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/theme.cpp -o CMakeFiles/nanogui.dir/src/theme.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/theme.cpp -o CMakeFiles/nanogui.dir/src/theme.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: ../lib/nanogui/src/layout.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o -MF CMakeFiles/nanogui.dir/src/layout.cpp.o.d -o CMakeFiles/nanogui.dir/src/layout.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/layout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o -MF CMakeFiles/nanogui.dir/src/layout.cpp.o.d -o CMakeFiles/nanogui.dir/src/layout.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/layout.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/layout.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/layout.cpp > CMakeFiles/nanogui.dir/src/layout.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/layout.cpp > CMakeFiles/nanogui.dir/src/layout.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/layout.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/layout.cpp -o CMakeFiles/nanogui.dir/src/layout.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/layout.cpp -o CMakeFiles/nanogui.dir/src/layout.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o: ../lib/nanogui/src/screen.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o -MF CMakeFiles/nanogui.dir/src/screen.cpp.o.d -o CMakeFiles/nanogui.dir/src/screen.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o -MF CMakeFiles/nanogui.dir/src/screen.cpp.o.d -o CMakeFiles/nanogui.dir/src/screen.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/screen.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/screen.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/screen.cpp > CMakeFiles/nanogui.dir/src/screen.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/screen.cpp > CMakeFiles/nanogui.dir/src/screen.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/screen.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/screen.cpp -o CMakeFiles/nanogui.dir/src/screen.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/screen.cpp -o CMakeFiles/nanogui.dir/src/screen.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o: ../lib/nanogui/src/label.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o -MF CMakeFiles/nanogui.dir/src/label.cpp.o.d -o CMakeFiles/nanogui.dir/src/label.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/label.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o -MF CMakeFiles/nanogui.dir/src/label.cpp.o.d -o CMakeFiles/nanogui.dir/src/label.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/label.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/label.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/label.cpp > CMakeFiles/nanogui.dir/src/label.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/label.cpp > CMakeFiles/nanogui.dir/src/label.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/label.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/label.cpp -o CMakeFiles/nanogui.dir/src/label.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/label.cpp -o CMakeFiles/nanogui.dir/src/label.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o: ../lib/nanogui/src/window.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o -MF CMakeFiles/nanogui.dir/src/window.cpp.o.d -o CMakeFiles/nanogui.dir/src/window.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o -MF CMakeFiles/nanogui.dir/src/window.cpp.o.d -o CMakeFiles/nanogui.dir/src/window.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/window.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/window.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/window.cpp > CMakeFiles/nanogui.dir/src/window.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/window.cpp > CMakeFiles/nanogui.dir/src/window.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/window.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/window.cpp -o CMakeFiles/nanogui.dir/src/window.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/window.cpp -o CMakeFiles/nanogui.dir/src/window.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o: ../lib/nanogui/src/popup.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o -MF CMakeFiles/nanogui.dir/src/popup.cpp.o.d -o CMakeFiles/nanogui.dir/src/popup.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/popup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o -MF CMakeFiles/nanogui.dir/src/popup.cpp.o.d -o CMakeFiles/nanogui.dir/src/popup.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/popup.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/popup.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/popup.cpp > CMakeFiles/nanogui.dir/src/popup.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/popup.cpp > CMakeFiles/nanogui.dir/src/popup.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/popup.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/popup.cpp -o CMakeFiles/nanogui.dir/src/popup.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/popup.cpp -o CMakeFiles/nanogui.dir/src/popup.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o: ../lib/nanogui/src/checkbox.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o -MF CMakeFiles/nanogui.dir/src/checkbox.cpp.o.d -o CMakeFiles/nanogui.dir/src/checkbox.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/checkbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o -MF CMakeFiles/nanogui.dir/src/checkbox.cpp.o.d -o CMakeFiles/nanogui.dir/src/checkbox.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/checkbox.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/checkbox.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/checkbox.cpp > CMakeFiles/nanogui.dir/src/checkbox.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/checkbox.cpp > CMakeFiles/nanogui.dir/src/checkbox.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/checkbox.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/checkbox.cpp -o CMakeFiles/nanogui.dir/src/checkbox.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/checkbox.cpp -o CMakeFiles/nanogui.dir/src/checkbox.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o: ../lib/nanogui/src/button.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o -MF CMakeFiles/nanogui.dir/src/button.cpp.o.d -o CMakeFiles/nanogui.dir/src/button.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o -MF CMakeFiles/nanogui.dir/src/button.cpp.o.d -o CMakeFiles/nanogui.dir/src/button.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/button.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/button.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/button.cpp > CMakeFiles/nanogui.dir/src/button.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/button.cpp > CMakeFiles/nanogui.dir/src/button.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/button.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/button.cpp -o CMakeFiles/nanogui.dir/src/button.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/button.cpp -o CMakeFiles/nanogui.dir/src/button.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o: ../lib/nanogui/src/popupbutton.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o -MF CMakeFiles/nanogui.dir/src/popupbutton.cpp.o.d -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/popupbutton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o -MF CMakeFiles/nanogui.dir/src/popupbutton.cpp.o.d -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/popupbutton.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/popupbutton.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/popupbutton.cpp > CMakeFiles/nanogui.dir/src/popupbutton.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/popupbutton.cpp > CMakeFiles/nanogui.dir/src/popupbutton.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/popupbutton.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/popupbutton.cpp -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/popupbutton.cpp -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o: ../lib/nanogui/src/combobox.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o -MF CMakeFiles/nanogui.dir/src/combobox.cpp.o.d -o CMakeFiles/nanogui.dir/src/combobox.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/combobox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o -MF CMakeFiles/nanogui.dir/src/combobox.cpp.o.d -o CMakeFiles/nanogui.dir/src/combobox.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/combobox.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/combobox.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/combobox.cpp > CMakeFiles/nanogui.dir/src/combobox.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/combobox.cpp > CMakeFiles/nanogui.dir/src/combobox.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/combobox.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/combobox.cpp -o CMakeFiles/nanogui.dir/src/combobox.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/combobox.cpp -o CMakeFiles/nanogui.dir/src/combobox.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o: ../lib/nanogui/src/progressbar.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o -MF CMakeFiles/nanogui.dir/src/progressbar.cpp.o.d -o CMakeFiles/nanogui.dir/src/progressbar.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/progressbar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o -MF CMakeFiles/nanogui.dir/src/progressbar.cpp.o.d -o CMakeFiles/nanogui.dir/src/progressbar.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/progressbar.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/progressbar.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/progressbar.cpp > CMakeFiles/nanogui.dir/src/progressbar.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/progressbar.cpp > CMakeFiles/nanogui.dir/src/progressbar.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/progressbar.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/progressbar.cpp -o CMakeFiles/nanogui.dir/src/progressbar.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/progressbar.cpp -o CMakeFiles/nanogui.dir/src/progressbar.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o: ../lib/nanogui/src/slider.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o -MF CMakeFiles/nanogui.dir/src/slider.cpp.o.d -o CMakeFiles/nanogui.dir/src/slider.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/slider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o -MF CMakeFiles/nanogui.dir/src/slider.cpp.o.d -o CMakeFiles/nanogui.dir/src/slider.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/slider.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/slider.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/slider.cpp > CMakeFiles/nanogui.dir/src/slider.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/slider.cpp > CMakeFiles/nanogui.dir/src/slider.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/slider.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/slider.cpp -o CMakeFiles/nanogui.dir/src/slider.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/slider.cpp -o CMakeFiles/nanogui.dir/src/slider.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o: ../lib/nanogui/src/messagedialog.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o -MF CMakeFiles/nanogui.dir/src/messagedialog.cpp.o.d -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/messagedialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o -MF CMakeFiles/nanogui.dir/src/messagedialog.cpp.o.d -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/messagedialog.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/messagedialog.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/messagedialog.cpp > CMakeFiles/nanogui.dir/src/messagedialog.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/messagedialog.cpp > CMakeFiles/nanogui.dir/src/messagedialog.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/messagedialog.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/messagedialog.cpp -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/messagedialog.cpp -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o: ../lib/nanogui/src/textbox.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o -MF CMakeFiles/nanogui.dir/src/textbox.cpp.o.d -o CMakeFiles/nanogui.dir/src/textbox.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/textbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o -MF CMakeFiles/nanogui.dir/src/textbox.cpp.o.d -o CMakeFiles/nanogui.dir/src/textbox.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/textbox.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/textbox.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/textbox.cpp > CMakeFiles/nanogui.dir/src/textbox.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/textbox.cpp > CMakeFiles/nanogui.dir/src/textbox.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/textbox.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/textbox.cpp -o CMakeFiles/nanogui.dir/src/textbox.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/textbox.cpp -o CMakeFiles/nanogui.dir/src/textbox.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o: ../lib/nanogui/src/textarea.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o -MF CMakeFiles/nanogui.dir/src/textarea.cpp.o.d -o CMakeFiles/nanogui.dir/src/textarea.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/textarea.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o -MF CMakeFiles/nanogui.dir/src/textarea.cpp.o.d -o CMakeFiles/nanogui.dir/src/textarea.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/textarea.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/textarea.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/textarea.cpp > CMakeFiles/nanogui.dir/src/textarea.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/textarea.cpp > CMakeFiles/nanogui.dir/src/textarea.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/textarea.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/textarea.cpp -o CMakeFiles/nanogui.dir/src/textarea.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/textarea.cpp -o CMakeFiles/nanogui.dir/src/textarea.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o: ../lib/nanogui/src/imagepanel.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o -MF CMakeFiles/nanogui.dir/src/imagepanel.cpp.o.d -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/imagepanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o -MF CMakeFiles/nanogui.dir/src/imagepanel.cpp.o.d -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/imagepanel.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/imagepanel.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/imagepanel.cpp > CMakeFiles/nanogui.dir/src/imagepanel.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/imagepanel.cpp > CMakeFiles/nanogui.dir/src/imagepanel.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/imagepanel.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/imagepanel.cpp -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/imagepanel.cpp -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o: ../lib/nanogui/src/vscrollpanel.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o -MF CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o.d -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/vscrollpanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o -MF CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o.d -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/vscrollpanel.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/vscrollpanel.cpp > CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/vscrollpanel.cpp > CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/vscrollpanel.cpp -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/vscrollpanel.cpp -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o: ../lib/nanogui/src/colorwheel.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o -MF CMakeFiles/nanogui.dir/src/colorwheel.cpp.o.d -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/colorwheel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o -MF CMakeFiles/nanogui.dir/src/colorwheel.cpp.o.d -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/colorwheel.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/colorwheel.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/colorwheel.cpp > CMakeFiles/nanogui.dir/src/colorwheel.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/colorwheel.cpp > CMakeFiles/nanogui.dir/src/colorwheel.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/colorwheel.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/colorwheel.cpp -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/colorwheel.cpp -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o: ../lib/nanogui/src/colorpicker.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o -MF CMakeFiles/nanogui.dir/src/colorpicker.cpp.o.d -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/colorpicker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o -MF CMakeFiles/nanogui.dir/src/colorpicker.cpp.o.d -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/colorpicker.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/colorpicker.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/colorpicker.cpp > CMakeFiles/nanogui.dir/src/colorpicker.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/colorpicker.cpp > CMakeFiles/nanogui.dir/src/colorpicker.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/colorpicker.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/colorpicker.cpp -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/colorpicker.cpp -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o: ../lib/nanogui/src/graph.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o -MF CMakeFiles/nanogui.dir/src/graph.cpp.o.d -o CMakeFiles/nanogui.dir/src/graph.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o -MF CMakeFiles/nanogui.dir/src/graph.cpp.o.d -o CMakeFiles/nanogui.dir/src/graph.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/graph.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/graph.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/graph.cpp > CMakeFiles/nanogui.dir/src/graph.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/graph.cpp > CMakeFiles/nanogui.dir/src/graph.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/graph.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/graph.cpp -o CMakeFiles/nanogui.dir/src/graph.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/graph.cpp -o CMakeFiles/nanogui.dir/src/graph.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o: ../lib/nanogui/src/tabwidget.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o -MF CMakeFiles/nanogui.dir/src/tabwidget.cpp.o.d -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/tabwidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o -MF CMakeFiles/nanogui.dir/src/tabwidget.cpp.o.d -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/tabwidget.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/tabwidget.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/tabwidget.cpp > CMakeFiles/nanogui.dir/src/tabwidget.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/tabwidget.cpp > CMakeFiles/nanogui.dir/src/tabwidget.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/tabwidget.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/tabwidget.cpp -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/tabwidget.cpp -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o: ../lib/nanogui/src/canvas.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o -MF CMakeFiles/nanogui.dir/src/canvas.cpp.o.d -o CMakeFiles/nanogui.dir/src/canvas.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/canvas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o -MF CMakeFiles/nanogui.dir/src/canvas.cpp.o.d -o CMakeFiles/nanogui.dir/src/canvas.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/canvas.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/canvas.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/canvas.cpp > CMakeFiles/nanogui.dir/src/canvas.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/canvas.cpp > CMakeFiles/nanogui.dir/src/canvas.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/canvas.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/canvas.cpp -o CMakeFiles/nanogui.dir/src/canvas.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/canvas.cpp -o CMakeFiles/nanogui.dir/src/canvas.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: ../lib/nanogui/src/texture.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o -MF CMakeFiles/nanogui.dir/src/texture.cpp.o.d -o CMakeFiles/nanogui.dir/src/texture.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o -MF CMakeFiles/nanogui.dir/src/texture.cpp.o.d -o CMakeFiles/nanogui.dir/src/texture.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/texture.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/texture.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/texture.cpp > CMakeFiles/nanogui.dir/src/texture.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/texture.cpp > CMakeFiles/nanogui.dir/src/texture.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/texture.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/texture.cpp -o CMakeFiles/nanogui.dir/src/texture.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/texture.cpp -o CMakeFiles/nanogui.dir/src/texture.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o: ../lib/nanogui/src/shader.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o -MF CMakeFiles/nanogui.dir/src/shader.cpp.o.d -o CMakeFiles/nanogui.dir/src/shader.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o -MF CMakeFiles/nanogui.dir/src/shader.cpp.o.d -o CMakeFiles/nanogui.dir/src/shader.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/shader.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/shader.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/shader.cpp > CMakeFiles/nanogui.dir/src/shader.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/shader.cpp > CMakeFiles/nanogui.dir/src/shader.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/shader.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/shader.cpp -o CMakeFiles/nanogui.dir/src/shader.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/shader.cpp -o CMakeFiles/nanogui.dir/src/shader.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o: ../lib/nanogui/src/imageview.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o -MF CMakeFiles/nanogui.dir/src/imageview.cpp.o.d -o CMakeFiles/nanogui.dir/src/imageview.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/imageview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o -MF CMakeFiles/nanogui.dir/src/imageview.cpp.o.d -o CMakeFiles/nanogui.dir/src/imageview.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/imageview.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/imageview.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/imageview.cpp > CMakeFiles/nanogui.dir/src/imageview.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/imageview.cpp > CMakeFiles/nanogui.dir/src/imageview.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/imageview.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/imageview.cpp -o CMakeFiles/nanogui.dir/src/imageview.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/imageview.cpp -o CMakeFiles/nanogui.dir/src/imageview.cpp.s
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/flags.make
 lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o: ../lib/nanogui/src/traits.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o: lib/nanogui/CMakeFiles/nanogui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o -MF CMakeFiles/nanogui.dir/src/traits.cpp.o.d -o CMakeFiles/nanogui.dir/src/traits.cpp.o -c /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/traits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o -MF CMakeFiles/nanogui.dir/src/traits.cpp.o.d -o CMakeFiles/nanogui.dir/src/traits.cpp.o -c /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/traits.cpp
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/traits.cpp.i"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/traits.cpp > CMakeFiles/nanogui.dir/src/traits.cpp.i
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/traits.cpp > CMakeFiles/nanogui.dir/src/traits.cpp.i
 
 lib/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/traits.cpp.s"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui/src/traits.cpp -o CMakeFiles/nanogui.dir/src/traits.cpp.s
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui/src/traits.cpp -o CMakeFiles/nanogui.dir/src/traits.cpp.s
 
 # Object files for target nanogui
 nanogui_OBJECTS = \
@@ -602,22 +602,22 @@ nanogui_OBJECTS = \
 
 # External object files for target nanogui
 nanogui_EXTERNAL_OBJECTS = \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o" \
-"/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o" \
+"/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
 
 lib/nanogui/libnanogui.so: lib/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o
 lib/nanogui/libnanogui.so: lib/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o
@@ -671,19 +671,19 @@ lib/nanogui/libnanogui.so: lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/
 lib/nanogui/libnanogui.so: lib/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o
 lib/nanogui/libnanogui.so: lib/nanogui/CMakeFiles/nanogui.dir/build.make
 lib/nanogui/libnanogui.so: lib/nanogui/CMakeFiles/nanogui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/merlin/Projects/Programming/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX shared library libnanogui.so"
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nanogui.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/merlin/workspace/apps/gfx/atti-config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX shared library libnanogui.so"
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nanogui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/nanogui/CMakeFiles/nanogui.dir/build: lib/nanogui/libnanogui.so
 .PHONY : lib/nanogui/CMakeFiles/nanogui.dir/build
 
 lib/nanogui/CMakeFiles/nanogui.dir/clean:
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean.cmake
+	cd /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean.cmake
 .PHONY : lib/nanogui/CMakeFiles/nanogui.dir/clean
 
 lib/nanogui/CMakeFiles/nanogui.dir/depend: lib/nanogui/nanogui_resources.cpp
 lib/nanogui/CMakeFiles/nanogui.dir/depend: lib/nanogui/nanogui_resources.h
-	cd /home/merlin/Projects/Programming/gfx/atti-config/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/merlin/Projects/Programming/gfx/atti-config /home/merlin/Projects/Programming/gfx/atti-config/lib/nanogui /home/merlin/Projects/Programming/gfx/atti-config/build /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui /home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/merlin/workspace/apps/gfx/atti-config/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/merlin/workspace/apps/gfx/atti-config /home/merlin/workspace/apps/gfx/atti-config/lib/nanogui /home/merlin/workspace/apps/gfx/atti-config/build /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui /home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/nanogui/CMakeFiles/nanogui.dir/depend
 

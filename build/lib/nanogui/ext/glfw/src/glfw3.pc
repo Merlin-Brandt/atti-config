@@ -1,7 +1,7 @@
-prefix=/usr/local
+prefix=/home/merlin/workspace/apps/gfx/atti-config/install
 exec_prefix=${prefix}
-includedir=/usr/local/include
-libdir=/usr/local/lib
+includedir=/home/merlin/workspace/apps/gfx/atti-config/install/include
+libdir=/home/merlin/workspace/apps/gfx/atti-config/install/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

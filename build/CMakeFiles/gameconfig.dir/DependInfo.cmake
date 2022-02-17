@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/merlin/Projects/Programming/gfx/atti-config/src/gameconfig.cpp" "CMakeFiles/gameconfig.dir/src/gameconfig.cpp.o" "gcc" "CMakeFiles/gameconfig.dir/src/gameconfig.cpp.o.d"
+  "/home/merlin/workspace/apps/gfx/atti-config/src/gameconfig.cpp" "CMakeFiles/gameconfig.dir/src/gameconfig.cpp.o" "gcc" "CMakeFiles/gameconfig.dir/src/gameconfig.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/merlin/Projects/Programming/gfx/atti-config/build/lib/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake"
+  "/home/merlin/workspace/apps/gfx/atti-config/build/lib/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
