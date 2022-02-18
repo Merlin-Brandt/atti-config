@@ -10,8 +10,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
     cmake_policy(SET CMP0025 NEW)
   endif ()
 
-set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/install")
-#set(CMAKE_INSTALL_LIBDIR ".")
+set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/install-mac-make")
+set(CMAKE_INSTALL_LIBDIR ".")
 
 add_executable(gameconfig src/gameconfig.cpp)
 target_compile_features(gameconfig PRIVATE cxx_std_17)
@@ -19,7 +19,7 @@ target_compile_features(gameconfig PRIVATE cxx_std_17)
 # Disable building extras we won't need (pure C++ project)
 set(NANOGUI_BUILD_EXAMPLE OFF CACHE BOOL " " FORCE)
 set(NANOGUI_BUILD_PYTHON  OFF CACHE BOOL " " FORCE)
-set(NANOGUI_INSTALL       OFF CACHE BOOL " " FORCE)
+#set(NANOGUI_INSTALL       OFF CACHE BOOL " " FORCE)
 
 # Add the configurations from nanogui
 add_subdirectory(lib/nanogui)

@@ -29,6 +29,7 @@
 
 #include "utils.hpp"
 #include "constants.hpp"
+#include "path.hpp"
 
 #include <cstdlib>
 #include <ctime>  
@@ -92,11 +93,13 @@ public:
         
         srand(time(NULL));
 
+        string const config_filename = path() + "res/config.txt";
+
         // stores the line numbers in new_diodati_titles.txt of the titles that shall
         // not be chosen in the following game, as these titles were already played.
         set<int> used_titles;
         {
-            std::ifstream config_in("res/config.txt");
+            std::ifstream config_in(config_filename);
             int used_titles_num = get_line_int(config_in);
             for (int i = 0; i < used_titles_num; ++i)
             {
@@ -191,7 +194,7 @@ public:
             for (int j = 0; j < BOARD_H; ++j)
                 board_chars[i][j]->set_value(" ");
 
-            vector<string> titles = get_lines("res/new_diodati_titles.txt");
+            vector<string> titles = get_lines(path() + "res/new_diodati_titles.txt");
             set<int> all_titles = range_set(0, titles.size());
             set<int> available_titles = sstd::set_difference(all_titles, used_titles);
             set<int> invalid_titles;
@@ -237,7 +240,7 @@ public:
                 string sign = val >= 0 ? "+" : "-";
                 string absval = to_string(abs(val));
                 char unit = box->units()[0];
-                if (!std::filesystem::exists("res/img/time/" + sign + absval + unit + ".png"))
+                if (!std::filesystem::exists(path() + "res/img/time/" + sign + absval + unit + ".png"))
                 {
                     string description;
                     if (box == tempo_giusto)
@@ -252,7 +255,7 @@ public:
                 }
             }
 
-            std::ofstream out("res/config.txt");
+            std::ofstream out(config_filename);
             out << used_titles.size() << std::endl;
             for (int i : used_titles)
             {
