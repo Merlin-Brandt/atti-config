@@ -2,30 +2,7 @@
 #include <cstdlib>
 
 #include <GLFW/glfw3.h>
-#include <nanogui/screen.h>
-#include <nanogui/window.h>
-#include <nanogui/layout.h>
-#include <nanogui/label.h>
-#include <nanogui/checkbox.h>
-#include <nanogui/button.h>
-#include <nanogui/toolbutton.h>
-#include <nanogui/popupbutton.h>
-#include <nanogui/combobox.h>
-#include <nanogui/progressbar.h>
-#include <nanogui/icons.h>
-#include <nanogui/messagedialog.h>
-#include <nanogui/textbox.h>
-#include <nanogui/slider.h>
-#include <nanogui/imagepanel.h>
-#include <nanogui/imageview.h>
-#include <nanogui/vscrollpanel.h>
-#include <nanogui/colorwheel.h>
-#include <nanogui/colorpicker.h>
-#include <nanogui/graph.h>
-#include <nanogui/tabwidget.h>
-#include <nanogui/texture.h>
-#include <nanogui/shader.h>
-#include <nanogui/renderpass.h>
+#include "nanogui_prelude"
 
 #include "utils.hpp"
 #include "constants.hpp"
@@ -93,7 +70,8 @@ public:
         
         srand(time(NULL));
 
-        string const config_filename = path() + "res/config.txt";
+        string const config_filename = config_path() + "/config.txt";
+        std::cout << config_filename << std::endl;
 
         // stores the line numbers in new_diodati_titles.txt of the titles that shall
         // not be chosen in the following game, as these titles were already played.
@@ -224,9 +202,9 @@ public:
         });
 
 
-        tab = next_tab(tabs, "Run game");
+        tab = next_tab(tabs, "Save configuration");
 
-        b = new Button(tab, "Save configuration and run game");
+        b = new Button(tab, "Save configuration");
         b->set_callback([=] { 
 
             // check if entered times can be displayed with resources
