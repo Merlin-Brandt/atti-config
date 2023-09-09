@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/install-mac-make")
 set(CMAKE_INSTALL_LIBDIR ".")
 
-add_executable(gameconfig src/gameconfig.cpp)
+add_executable(gameconfig src/gameconfig.cpp src/apple/ResourcePath.mm)
 target_compile_features(gameconfig PRIVATE cxx_std_17)
 
 # Disable building extras we won't need (pure C++ project)
